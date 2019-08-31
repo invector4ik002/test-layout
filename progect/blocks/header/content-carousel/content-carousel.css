@@ -1,4 +1,52 @@
 .content-carousel {
-  outline: 1px solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 100px 0 100px;
+}
+.content-carousel__left-arrow {
+  align-self: flex-end;
+}
+.content-carousel__right-arrow {
+  align-self: flex-end;
+}
+.content-carousel__wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
   text-align: center;
+}
+.content-carousel__benefits {
+  height: 36px;
+  margin: 0 0 4px 0;
+  width: 457px;
+}
+.content-carousel__benefits_style {
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 0.9;
+}
+.content-carousel__title {
+  height: 50px;
+  width: 589px;
+}
+.content-carousel__title_styles {
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 52px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+.content-carousel__text {
+  height: 39px;
+  width: 574px;
+}
+.content-carousel__text_styles {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
 }
