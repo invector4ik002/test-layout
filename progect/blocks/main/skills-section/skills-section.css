@@ -1,0 +1,89 @@
+.skill-section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 80px 0 80px 0;
+}
+.skill-section__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 17px 0 17px;
+}
+.skill-section__card:after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  background-color: #f1eee9;
+}
+.skill-section__card:hover:after {
+  background-color: #c7b299;
+}
+.skill-section__card:hover .skill-section__svg-border_hover {
+  fill: #c7b299;
+}
+.skill-section__svg_hover:hover {
+  color: #c7b299;
+}
+.skill-section__card:hover .skill-section__svg_hover {
+  fill: #c7b299;
+  color: #f0d4b3;
+}
+.skill-section__link {
+  text-decoration: none;
+}
+.skill-section__svg-design_style {
+  margin: 0 0 29px 0;
+  fill: #555555;
+}
+.skill-section__heading {
+  width: 210px;
+  height: 21px;
+  margin: 0 0 19px 0;
+}
+.skill-section__heading_styles {
+  color: #555555;
+  display: block;
+  font-family: 'raleway-regular';
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.skill-section__text {
+  width: 271px;
+  height: 62px;
+  margin: 0 0 30px 0;
+}
+.skill-section__text_styles {
+  font-family: 'montserrat-regular';
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #8c8c8c;
+}
+.skill-section__text-lorem {
+  width: 274px;
+  height: 62px;
+  margin: 0 0 30px 0;
+}
+.skill-section__svg-development {
+  margin: 9px 0 29px 0;
+}
+.skill-section__svg-development_style {
+  fill: #555555;
+}
+.skill-section__svg-customization {
+  margin: 4px 0 29px 0;
+}
+.skill-section__svg-customization_style {
+  fill: #555555;
+}
+.skill-section__svg-marketing {
+  margin: 12px 0 29px 0;
+}
+.skill-section__svg-marketing_style {
+  fill: #555555;
+}
