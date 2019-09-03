@@ -1,4 +1,56 @@
+@outline: 1px solid white;
 .content-carousel {
-    outline: 1px solid white;
-    text-align: center;
+    // outline: @outline;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    &__left-arrow {
+        align-self: flex-end;
+    }
+    &__right-arrow {
+        align-self: flex-end;
+    }
+    &__wrapper {
+        // outline: @outline;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    &__benefits {           
+        height: 36px;//34
+        margin: 0 0 4px 0;
+        width: 457px;//456px
+    }
+    &__benefits_style {
+        color: #ffffff;
+        font-family: 'raleway-regular';
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 0.9;//1.2
+    }
+    &__title {
+        height: 50px;         
+        width: 589px;
+    }
+    &__title_styles {
+        color: #ffffff;
+        font-family: 'raleway-extra-bold';
+        font-size: 52px;
+        font-weight: 800;
+        line-height: 1.2;
+    }
+    &__text {
+        height: 39px;    
+        width: 574px;//562
+        margin: 31px 0 0 0;
+    }
+    &__text_styles {
+        color: #ffffff;
+        font-family: 'montserrat-regular';
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        margin: 31px 0 0 0;
+    }
 } 
