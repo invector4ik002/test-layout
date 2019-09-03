@@ -18,9 +18,23 @@
         display: flex;
         float: left;       
     }
-    &__logo__name_style {
+    &__logo-svg_style {
+        fill: #ffffff;
+    }
+    &__logo__svg_hover:hover {
+        fill: hsl(31, 88%, 90%);
+        color: hsl(31, 88%, 90%);
+    }
+    &__logo:hover &__logo-name_style,
+    &__logo:hover &__logo-svg_style {
+        // outline: @outline;
+       color: hsl(31, 88%, 90%); 
+       fill:  hsl(31, 88%, 90%);  
+    }
+    
+    &__logo-name_style {
         color: #ffffff;
-        font-family: Raleway;
+        font-family: 'raleway-regular';
         font-size: 34px;
         font-weight: 400;
         line-height: 1.2;
@@ -47,15 +61,19 @@
     }
     &__list__items_style {
         color: #ffffff;
-        font-family: Montserrat;
+        font-family: 'montserrat-regular';
         font-size: 14px;
         font-weight: 300;
         line-height: 1.2;
     }  
     &__list__svg-case {
         margin: 0 0 0 34px;  
+        width: 20px;
+        height: 27px;
+        fill: #ffffff;
     }
     &__list__svg-search {
+        fill: #ffffff;
         margin: 0 0 0 29px;
     }
     &__list__items_active {

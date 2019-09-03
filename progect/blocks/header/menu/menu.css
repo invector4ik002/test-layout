@@ -16,9 +16,21 @@
   display: flex;
   float: left;
 }
-.menu__logo__name_style {
+.menu__logo-svg_style {
+  fill: #ffffff;
+}
+.menu__logo__svg_hover:hover {
+  fill: #fce6cf;
+  color: #fce6cf;
+}
+.menu__logo:hover .menu__logo-name_style,
+.menu__logo:hover .menu__logo-svg_style {
+  color: #fce6cf;
+  fill: #fce6cf;
+}
+.menu__logo-name_style {
   color: #ffffff;
-  font-family: Raleway;
+  font-family: 'raleway-regular';
   font-size: 34px;
   font-weight: 400;
   line-height: 1.2;
@@ -44,15 +56,19 @@
 }
 .menu__list__items_style {
   color: #ffffff;
-  font-family: Montserrat;
+  font-family: 'montserrat-regular';
   font-size: 14px;
   font-weight: 300;
   line-height: 1.2;
 }
 .menu__list__svg-case {
   margin: 0 0 0 34px;
+  width: 20px;
+  height: 27px;
+  fill: #ffffff;
 }
 .menu__list__svg-search {
+  fill: #ffffff;
   margin: 0 0 0 29px;
 }
 .menu__list__items_active {

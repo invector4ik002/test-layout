@@ -9,11 +9,11 @@
 .buttn_styles {
   align-self: center;
   color: #ffffff;
-  font-family: Raleway;
+  font-family: "raleway-regular";
   font-size: 14px;
   font-weight: 800;
   line-height: 23px;
-  margin: -271px 0 0 0;
+  margin: -274px 0 0 0;
   text-transform: uppercase;
 }
 .buttn_hover:hover {
