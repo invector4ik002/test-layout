@@ -1,0 +1,160 @@
+.latest-projects {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 81px 361px 0 361px ;
+  width: 100%;
+}
+.latest-projects__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0 0 40px 0;
+  padding: 0 0 0 0;
+}
+.latest-projects__list__item {
+  margin: 0 10px 0 0;
+}
+.latest-projects__list__link {
+  display: block;
+  width: 120px;
+  padding: 10px 0 8px 0;
+  text-decoration: none;
+}
+.latest-projects__list__link-all {
+  width: 70px;
+}
+.latest-projects__list__link-photography {
+  width: 135px;
+}
+.latest-projects__list__link_style {
+  border: 1.0px solid #ebebeb;
+  border-radius: 3.0px;
+  color: #8c8c8c;
+  font-family: 'montserrat-regular';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+}
+.latest-projects__list__link_hover:hover {
+  background-color: #998675;
+  color: #ffffff;
+}
+.latest-projects .latest-projects-wrapper {
+  align-content: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1170px;
+}
+.latest-projects .latest-projects-card {
+  height: 337px;
+  margin: 0 0 30px 0;
+  width: 370px;
+}
+.latest-projects .latest-projects-card__blackout {
+  background-color: #362f2d;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: row;
+  height: 237px;
+  justify-content: space-between;
+  padding: 106px 146px 105px 144px;
+  visibility: hidden;
+  width: 370px;
+}
+.latest-projects .latest-projects-card__blackout-svg-ligament {
+  background-image: url(img/link_10955.svg);
+  height: 26px;
+  width: 28px;
+}
+.latest-projects .latest-projects-card__blackout-svg-review {
+  background-image: url(img/lupa_10956.svg);
+  height: 27px;
+  width: 28px;
+}
+.latest-projects .latest-projects-card__content {
+  align-items: flex-start;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  padding: 27px 0 25px 28px;
+  position: relative;
+  width: 370px;
+}
+.latest-projects .latest-projects-card__content_style {
+  background-color: #fbfaf8;
+}
+.latest-projects .latest-projects-card__svg_style {
+  fill: #fbfaf8;
+  left: 21px;
+  margin: 0 0 0 0;
+  position: absolute;
+  top: -11px;
+}
+.latest-projects .latest-projects-card__title {
+  color: #c7b299;
+  font-family: 'raleway-regular';
+  font-weight: 500;
+  font-size: 20px;
+  height: 15px;
+  line-height: 1.2;
+  min-width: 209px;
+}
+.latest-projects .latest-projects-card__text_style {
+  color: #d1d1d1;
+  font-family: 'montserrat-regular';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+.latest-projects .latest-projects-card_img-one {
+  background-image: url(img/photo_10950.jpg);
+}
+.latest-projects .latest-projects-card_img-two {
+  background-image: url(img/photo_10951.jpg);
+}
+.latest-projects .latest-projects-card_img-three {
+  background-image: url(img/photo_10952.jpg);
+}
+.latest-projects .latest-projects-card_img-four {
+  background-image: url(img/photo_10858.jpg);
+}
+.latest-projects .latest-projects-card_img-five {
+  background-image: url(img/photo_10862.jpg);
+}
+.latest-projects .latest-projects-card_img-six {
+  background-image: url(img/photo_10866.jpg);
+}
+.latest-projects .latest-projects-card_hover:hover .latest-projects-card__text_hover {
+  color: #c7b299;
+}
+.latest-projects .latest-projects-card_hover:hover .latest-projects-card__title_hover,
+.latest-projects .latest-projects-card_hover:hover .latest-projects-card__content_hover {
+  background-color: #362f2d;
+  color: #ffffff;
+}
+.latest-projects .latest-projects-card_hover:hover .latest-projects-card__svg_hover,
+.latest-projects .latest-projects-card_hover:hover .latest-projects-card__blackout_hover {
+  visibility: visible;
+  fill: #362f2d;
+}
+.latest-projects__button {
+  align-self: center;
+  color: #ffffff;
+  font-family: "raleway-regular";
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 23px;
+  margin: 10px 0 0 0;
+  text-transform: uppercase;
+}
+.latest-projects .buttn_hover:hover {
+  background-color: #aa9787;
+}

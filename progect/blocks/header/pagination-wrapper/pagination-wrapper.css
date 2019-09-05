@@ -1,0 +1,26 @@
+.pagination-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 20px;
+  margin: 0 0 -20px 0;
+}
+.pagination-wrapper__circle {
+  border-radius: 50%;
+  height: 11px;
+  margin: 0 5px 0 5px;
+  width: 11px;
+}
+.pagination-wrapper__circle_style {
+  background-color: #ffffff;
+  opacity: 0.5;
+}
+.pagination-wrapper__circle:hover {
+  border: 2px solid #d3c1ad;
+  background-color: transparent;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  margin: 0 1px 0 1px;
+}

@@ -1,7 +1,49 @@
+
+@import "../container/container";
+@import "menu/menu";
+@import "content-carousel/content-carousel.css";
+@import "pagination-wrapper/pagination-wrapper.css";
+@import "botton/button";
+@import "../main/skills-section/skills-section";
+@import "../main/main.css";
+@import "../main/your-Ideas/your-Ideas.css";
+@import "../main/latest-projects/latest-projects.css";
+@import "../main/presentation/presentation.css";
+
+@font-face {
+    font-family: 'montserrat-regular';
+    src: url('../fonts/montserrat/regular/montserrat-regular.eot');
+    src: url('../fonts/montserrat/regular/montserrat-regular.woff2') format('woff2'),
+         url('../fonts/montserrat/regular/montserrat-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'raleway-regular';
+    src: url('../fonts/raleway/regular/raleway-regular.eot');
+    src: url('../fonts/raleway/regular/raleway-regular.woff2') format('woff2'),
+         url('../fonts/raleway/regular/raleway-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'raleway-extra-bold';
+    src: url('../fonts/raleway/extra-bold/raleway-extra-bold.eot');
+    src: url('../fonts/raleway/extra-bold/raleway-extra-bold.woff2') format('woff2'),
+         url('../fonts/raleway/extra-bold/raleway-extra-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .header {
     box-sizing: border-box;
-    background-image: url(../img/photo_11982.png);
+    background-image: url(./img/photo_11982.png);
     min-height: 1024px;
     padding: 40px;
-    width: 100%;   
+    width: 100%;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
 }
