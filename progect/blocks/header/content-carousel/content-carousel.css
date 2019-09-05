@@ -5,9 +5,17 @@
 }
 .content-carousel__left-arrow {
   align-self: flex-end;
+  fill: #ffffff;
 }
 .content-carousel__right-arrow {
   align-self: flex-end;
+  fill: #ffffff;
+}
+.content-carousel__arrow_hover:hover {
+  fill: #c7b299;
+}
+.content-carousel__arrow_active:active {
+  fill: #ffffff;
 }
 .content-carousel__wrapper {
   align-items: center;

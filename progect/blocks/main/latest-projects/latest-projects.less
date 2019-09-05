@@ -13,14 +13,14 @@
         list-style-type: none;
         margin: 0 0 40px 0;
         padding: 0 0 0 0;
-        &__item {
-            margin: 0 10px 0 0;//?
-        }
         &__link {
-            display: block;
+            margin: 0 10px 0 0;
             width: 120px;
-            padding: 10px 0 8px 0;
-            text-decoration: none;
+            padding: 7px 0 3px 0;
+            // box-shadow: 0 -3px #cfb49c inset;
+            transition: 0.2s;
+            background: transparent;
+            outline: none;
         }
         &__link-all {
             width: 70px;
@@ -131,6 +131,7 @@
     .latest-projects-card_img-six {
         background-image: url(./img/photo_10866.jpg);      
     }
+
     .latest-projects-card_hover:hover .latest-projects-card__text_hover {
         color: #c7b299;
     }   
@@ -148,6 +149,7 @@
         align-self: center;
         color: #ffffff;
         font-family: "raleway-regular";
+        transition: 0.2s;
         font-size: 14px;
         font-weight: 800;
         line-height: 23px;
@@ -156,5 +158,9 @@
     }
     .buttn_hover:hover {
         background-color: #aa9787;
+    }
+    .buttn_hover:active {
+        background: #cfb49c;
+        box-shadow: 0 -3px #cfb49c inset;
     }
 }

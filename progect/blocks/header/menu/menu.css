@@ -28,6 +28,11 @@
   color: #fce6cf;
   fill: #fce6cf;
 }
+.menu__logo:active .menu__logo-name_style,
+.menu__logo:active .menu__logo-svg_active {
+  fill: #ffffff;
+  color: #ffffff;
+}
 .menu__logo-name_style {
   color: #ffffff;
   font-family: 'raleway-regular';

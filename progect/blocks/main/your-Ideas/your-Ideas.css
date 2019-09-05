@@ -48,6 +48,7 @@
   z-index: 0;
   left: 329px;
   top: 299px;
+  transition: 0.4s;
 }
 .your-Ideas__one:hover {
   z-index: 3;
@@ -60,6 +61,7 @@
   right: 344px;
   top: 299px;
   z-index: 1;
+  transition: 0.4s;
 }
 .your-Ideas__two:hover {
   z-index: 3;
@@ -100,11 +102,15 @@
 .your-Ideas__footer-button_styles {
   color: #ffffff;
   background-color: #998675;
+  transition: 0.2s;
   font-family: "raleway-regular";
   font-size: 14px;
   font-weight: 800;
   line-height: 23px;
   text-transform: uppercase;
+}
+.your-Ideas__footer-button_styles:active {
+  background: #cfb49c;
 }
 .your-Ideas__list {
   margin: 0 0 0 0;

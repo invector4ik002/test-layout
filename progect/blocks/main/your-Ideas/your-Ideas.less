@@ -47,6 +47,7 @@
         z-index: 0;
         left: 329px;
         top: 299px;
+        transition: 0.4s;
     }
     &__one:hover {
         z-index: 3;
@@ -59,6 +60,7 @@
         right: 344px;
         top: 299px;
         z-index: 1;
+        transition: 0.4s;
     }
     &__two:hover {
         z-index: 3;
@@ -91,7 +93,7 @@
         border-radius: 3.0px;
         outline: none;
         align-self: flex-end;
-       margin: -60px 0 0 0;
+        margin: -60px 0 0 0;
     }
     &__footer-button_hover:hover {
         background-color: #aa9787;
@@ -99,17 +101,22 @@
     &__footer-button_styles {   
         color: #ffffff;
         background-color: #998675;
+        transition: 0.2s;
         font-family: "raleway-regular";
         font-size: 14px;
         font-weight: 800;
         line-height: 23px;
         text-transform: uppercase;
     }
+    &__footer-button_styles:active {
+        background: #cfb49c;
+    }
     &__list {
         margin: 0 0 0 0;
         padding: 0 0 0 0;
         text-decoration: none;
     }
+    
     &__list-link {
         list-style-type: none;
     }

@@ -25,6 +25,7 @@
   background-image: url(img/icon_play_10993.svg);
   background-repeat: no-repeat;
   overflow: hidden;
+  outline: none;
   border: none;
   width: 79px;
   height: 79px;
@@ -62,4 +63,14 @@
   line-height: 28px;
   font-weight: 300;
   color: #ffffff;
+}
+.presentation__time {
+  font-family: 'montserrat-regular';
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #c7b299;
+  position: absolute;
+  top: 484px;
+  z-index: 1;
 }

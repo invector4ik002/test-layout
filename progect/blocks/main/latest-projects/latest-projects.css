@@ -15,14 +15,13 @@
   margin: 0 0 40px 0;
   padding: 0 0 0 0;
 }
-.latest-projects__list__item {
-  margin: 0 10px 0 0;
-}
 .latest-projects__list__link {
-  display: block;
+  margin: 0 10px 0 0;
   width: 120px;
-  padding: 10px 0 8px 0;
-  text-decoration: none;
+  padding: 7px 0 3px 0;
+  transition: 0.2s;
+  background: transparent;
+  outline: none;
 }
 .latest-projects__list__link-all {
   width: 70px;
@@ -149,6 +148,7 @@
   align-self: center;
   color: #ffffff;
   font-family: "raleway-regular";
+  transition: 0.2s;
   font-size: 14px;
   font-weight: 800;
   line-height: 23px;
@@ -157,4 +157,8 @@
 }
 .latest-projects .buttn_hover:hover {
   background-color: #aa9787;
+}
+.latest-projects .buttn_hover:active {
+  background: #cfb49c;
+  box-shadow: 0 -3px #cfb49c inset;
 }
