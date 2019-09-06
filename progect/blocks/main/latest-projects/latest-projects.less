@@ -1,0 +1,162 @@
+.latest-projects {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 81px 361px 0 361px ;
+    width: 100%;
+   
+    &__wrap-btn {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 0 40px 0;
+        padding: 0 0 0 0;
+        &__btn {
+            margin: 0 10px 0 0;
+            width: 120px;
+            padding: 7px 0 3px 0;
+            transition: 0.2s;
+            background: transparent;
+            outline: none;
+        }
+        &__btn-all {
+            width: 70px;
+        }
+        &__btn-photography {
+            width: 135px;
+        }
+        &__btn_style {
+            border: 1.0px solid #ebebeb;
+            border-radius: 3.0px;
+            color: #8c8c8c;   
+            font-family: 'montserrat-regular';
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 21px;
+        }
+    }       
+ 
+   .latest-projects-wrapper {
+        align-content: stretch;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 1170px;;
+    }
+    .latest-projects-card {
+        height: 337px;
+        margin: 0 0 30px 0;
+        width: 370px;
+        &__blackout {
+            background-color: #362f2d;
+            box-sizing: border-box;
+            background: rgba(0,0,0,.5);
+            display: flex;
+            flex-direction: row;
+            height: 237px;
+            justify-content:space-between;
+            padding: 106px 146px 105px 144px;
+            visibility: hidden;
+            width: 370px;
+        }
+        &__blackout-svg-ligament {
+            background-image: url(./img/link_10955.svg);
+            height: 26px;
+            width: 28px;
+        }
+        &__blackout-svg-review {
+            background-image: url(./img/lupa_10956.svg);  
+            height: 27px;
+            width: 28px;
+        }
+        &__content {
+            align-items: flex-start;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            height: 100px;
+            padding: 27px 0 25px 28px;
+            position: relative;
+            width: 370px;
+        } 
+        &__content_style {
+            background-color: #fbfaf8;          
+        }
+        &__svg_style {
+            fill:#fbfaf8;
+            left: 21px;
+            margin: 0 0 0 0;
+            position: absolute;
+            top: -11px;
+        }
+        &__title {
+            color: #c7b299;
+            font-family: 'raleway-regular';
+            font-weight: 500;
+            font-size: 20px;
+            height: 15px;
+            line-height: 1.2;
+            min-width: 209px;
+        }
+        &__text_style {
+            color: #d1d1d1;
+            font-family: 'montserrat-regular';
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 20px;
+        }        
+    }
+    .latest-projects-card_img-one {
+        background-image: url(./img/photo_10950.jpg);
+    }
+    .latest-projects-card_img-two {
+        background-image: url(./img/photo_10951.jpg);
+    }
+    .latest-projects-card_img-three {
+        background-image: url(./img/photo_10952.jpg);      
+    }
+    .latest-projects-card_img-four {
+        background-image: url(./img/photo_10858.jpg);      
+    }
+    .latest-projects-card_img-five {
+        background-image: url(./img/photo_10862.jpg);      
+    }
+    .latest-projects-card_img-six {
+        background-image: url(./img/photo_10866.jpg);      
+    }
+
+    .latest-projects-card_hover:hover .latest-projects-card__text_hover {
+        color: #c7b299;
+    }   
+    .latest-projects-card_hover:hover .latest-projects-card__title_hover,
+    .latest-projects-card_hover:hover .latest-projects-card__content_hover {
+        background-color: #362f2d;
+        color: #ffffff;
+    }
+    .latest-projects-card_hover:hover .latest-projects-card__svg_hover,
+    .latest-projects-card_hover:hover .latest-projects-card__blackout_hover {
+        visibility: visible;
+        fill: #362f2d;
+    }
+    &__button {
+        align-self: center;
+        color: #ffffff;
+        font-family: "raleway-regular";
+        transition: 0.2s;
+        font-size: 14px;
+        font-weight: 800;
+        line-height: 23px;
+        margin: 10px 0 0 0;
+        text-transform: uppercase;
+    }
+    .buttn_hover:hover {
+        background-color: #aa9787;
+    }
+    .buttn_hover:active {
+        background: #cfb49c;
+        box-shadow: 0 -3px #cfb49c inset;
+    }
+}
