@@ -7,6 +7,8 @@
 @import "../main/your-Ideas/your-Ideas.css";
 @import "../main/latest-projects/latest-projects.css";
 @import "../main/presentation/presentation.css";
+@import "../main/mobile-devices/mobile-devices.css";
+@import "../main/statistics/statistics.css";
 .container {
   width: 1920px;
   margin: 0 auto;

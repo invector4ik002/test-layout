@@ -66,6 +66,9 @@
   font-weight: 300;
   line-height: 1.2;
 }
+.menu__list__items_style:active {
+  color: #ffffff;
+}
 .menu__list__svg-case {
   margin: 0 0 0 34px;
   width: 20px;
@@ -75,6 +78,9 @@
 .menu__list__svg-search {
   fill: #ffffff;
   margin: 0 0 0 29px;
+}
+.menu__list__svg-active:active {
+  fill: #ffffff;
 }
 .menu__list__items_active {
   color: #c7b299;

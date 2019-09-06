@@ -20,6 +20,7 @@
 }
 .buttn_hover:hover {
   background-color: #aa9787;
+  color: #ffffff;
 }
 .buttn_hover:active {
   background: #cfb49c;
